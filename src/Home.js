@@ -4,9 +4,9 @@ const Home = () => {
         console.log('Hello Ninjas!');
     }
 
-    const handleClickAgain = (name) => {
-        console.log('Hello ' + name);
-    }
+    // const handleClickAgain = (name) => {
+    //     console.log('Hello ' + name);
+    // }
 
     return (
         <div className="home">
@@ -16,7 +16,7 @@ const Home = () => {
             {/* if you want to pass in an argument during the click event, you have to nest it in an anonymous function */}
             {/* don't need curly braces for the anonymous function if it is on one line. */}
 
-            <button onClick={() => handleClickAgain('Penny')}>Click me again!</button>
+            {/* <button onClick={() => handleClickAgain('Penny')}>Click me again!</button> */}
        
         </div>
     );
