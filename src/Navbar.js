@@ -6,6 +6,9 @@ const Navbar = () => {
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/create" 
+
+                    // how to do inline styling in javascript html
+
                     // style={{
                     //     color: "white",
                     //     backgroundColor: "#f1356d",
